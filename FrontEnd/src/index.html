@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TODO LIST</title>
+  </head>
+  <body>
+    <section class="w-50 mx-auto mt-5">
+      <h1>TODO LIST</h1>
+      <form class="input-group mb-2 js--inputForm">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Write your todos"
+          aria-label="TODO INPUT"
+          id="inputArea"
+        />
+        <button class="btn btn-outline-secondary" type="button" id="addTodoBtn">
+          Add
+        </button>
+        <button
+          class="btn btn-outline-secondary"
+          type="button"
+          id="clearAllTodoBtn"
+        >
+          Clear All
+        </button>
+      </form>
+
+      <div class="list-group js--todoList">
+        <!-- <li class="list-group-item d-flex align-items-center">
+          <input
+            class="form-check-input me-1 js--todoChecked"
+            type="checkbox"
+          />
+          <span class="ms-1 js--todoText">Read a book</span>
+          <button
+            type="button"
+            class="btn-close ms-auto js--todoDeleteBtn"
+            aria-label="Close"
+          ></button>
+        </li> -->
+      </div>
+    </section>
+  </body>
+</html>
